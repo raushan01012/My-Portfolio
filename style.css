@@ -333,7 +333,7 @@ html,body{
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    font-weight: 100px;
+    font-weight: 100;
     padding-top: 15px;
 
 
@@ -428,12 +428,12 @@ html,body{
     .right1 a {
          color: white;
          margin: 0px 10px;
-         font-size: 17px;
+         font-size: 13px;
     }
     .left1{
 
     color: white;
-    font-size: 3vh;
+    font-size: 2.7vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -496,7 +496,7 @@ html,body{
     }
 
 
-    }
+    
     .left3,
     .right3 {
         width: 100%;
@@ -576,11 +576,22 @@ html,body{
         font-size: 3vh;
         padding: 5px;
     }
-}
+    
+
+
 
 @media (max-width: 480px) {
     .left2 h1 {
         font-size: 5vh;
+    }
+    .left1{
+        font-size: 2vh;
+    }
+     .right1 a {
+        word-wrap: break-word;
+
+         margin: 0px 10px;
+         font-size: 10px;
     }
 
     .myimg {
@@ -596,3 +607,5 @@ html,body{
         font-size: 12px;
     }
 }
+
+
