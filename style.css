@@ -309,24 +309,27 @@ html,body{
 .box{
     padding-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 45px;
-    margin: 0px 160px;
+    gap:10px;
+
     
     
     
 }
-.box1, .box2, .box3, .box4, .box5, .box6{
-    height: 39vh;
-    width:30%;
-    border: 1px solid white;
-    border-radius: 20px;
-    box-shadow: 0 0 30px 0px rgba(0, 255, 119, 5);
-    border: none;
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        padding-bottom: 20px;
+        height: 40vh;
+        width:28%;
+        border: 1px solid white;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: #024807;
+        border: none;
+      
+
 
 }
-
 .page3 h1{
     color:#00ed6f;
     font-size: 80px;
@@ -402,6 +405,7 @@ html,body{
     height: 50vh;
     width: 40%;
     border: 1px solid white;
+    padding: 100px;
 
 }
 .right4{
@@ -540,13 +544,29 @@ html,body{
         margin: 0;
         padding: 0;
         justify-content: center;
-        gap: 20px;
+        gap: 30px;
     }
 
     .box1, .box2, .box3, .box4, .box5, .box6 {
-        width: 90%;
+        /* width: 90%; */
         height: auto;
         padding-bottom: 20px;
+        /* height: 39vh; */
+        width:30%;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: none;
+        background-color: #024807;
+        border: none;
+      
+
+
+}
+
+
+
+
+        
     }
 
     .box p {
@@ -609,3 +629,10 @@ html,body{
 }
 
 
+
+
+@media (max-width: 550px) {
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        width: 80%;
+    }
+}
