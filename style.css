@@ -319,7 +319,7 @@ html,body{
 }
     .box1, .box2, .box3, .box4, .box5, .box6 {
         padding-bottom: 20px;
-        height: 40vh;
+        height: 30vh;
         width:28%;
         border: 1px solid white;
         border-radius: 10px;
@@ -352,6 +352,7 @@ html,body{
     margin-top: 10px;
 
 }
+
 .box h2{
     padding-top: 20px;
     color: white;
@@ -360,6 +361,11 @@ html,body{
 
 
 }
+.box h2 a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
 
 .box p{
     color: white;
