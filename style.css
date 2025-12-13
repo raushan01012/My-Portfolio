@@ -418,3 +418,183 @@ html,body{
     justify-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+/* ===========================
+   MOBILE RESPONSIVE (max 768px)
+   =========================== */
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+        padding: 0px 20px;
+        font-size: 2vh;
+    }
+
+    .right1 {
+        display: none;   /* Mobile me menu hide - baad me burger add kar sakte ho */
+    }
+
+    .page1 {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .left2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .left2 h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    .left2 h3 {
+        font-size: 2vh;
+        padding: 10px 15px;
+    }
+
+    .left2 button {
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .icon {
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .right2 {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .myimg {
+        height: 280px;
+        width: 280px;
+    }
+
+    /* -------- Page 2 -------- */
+    .page2 {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        padding: 30px 0;
+    }
+
+    .left3,
+    .right3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right3 h1 {
+        font-size: 6vh;
+    }
+
+    .left3 img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .right3 p {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .btn1 {
+        margin-top: 20px;
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /* --------- Projects (Page 3) -------- */
+    .page3 {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .page3 h1 {
+        font-size: 40px;
+    }
+
+    .box {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .box p {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    /* --------- Skill Page -------- */
+    .skill {
+        width: 100%;
+        height: auto;
+        border: none;
+        padding-bottom: 40px;
+    }
+
+    .page4 {
+        flex-direction: column;
+        height: auto;
+        gap: 25px;
+    }
+
+    .left4, .right4 {
+        width: 90%;
+        height: auto;
+    }
+
+    .left4 h4 {
+        font-size: 3vh;
+        padding: 5px;
+    }
+}
+
+
+/* ===========================
+   EXTRA SMALL DEVICES (max 480px)
+   =========================== */
+@media (max-width: 480px) {
+    .left2 h1 {
+        font-size: 5vh;
+    }
+
+    .myimg {
+        height: 230px;
+        width: 230px;
+    }
+
+    .right3 h1 {
+        font-size: 5vh;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+}
