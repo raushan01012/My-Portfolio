@@ -792,6 +792,9 @@ html,body{
     box-shadow: 0 0 300px 200px rgba(0, 255, 119, 0.1);
     
 }
+.right3 p{
+    line-height: 35px;
+}
 
 
 }
