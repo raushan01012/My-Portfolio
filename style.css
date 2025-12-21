@@ -589,18 +589,6 @@ html, body {
 }
 
 
-@media (max-width: 768px) {
-    .skills-wrapper {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .page4 .skill-title {
-        font-size: 10vw;
-    }
-}
-
-
 
 
 
@@ -716,6 +704,7 @@ html, body {
     .right3 p {
         padding: 0 10px;
         font-size: 15px;
+        text-align: left;
     }
 
     .btn1 {
@@ -807,7 +796,18 @@ html, body {
         font-size: 10vw;
     }
 
+
+
+     .skills-wrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .page4 .skill-title {
+        font-size: 10vw;
+    }
 }
+
 
 
 
