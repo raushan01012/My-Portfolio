@@ -64,7 +64,7 @@ html, body {
 
 }
 
-.right1 :hover {
+.right1 a:hover {
     cursor: pointer;
     color: #24bf6d;
     user-select: none;
@@ -86,7 +86,9 @@ html, body {
     width: 80%;
     margin: auto;
 
+
 }
+
 
 .left2 {
     /* border: 2px solid white; */
@@ -186,13 +188,13 @@ html, body {
     text-decoration: none;
 }
 
-.icon :hover {
+.icon:hover {
     color: #24bf6d;
     cursor: pointer;
 
 }
 
-.button :hover {
+.button:hover {
     cursor: pointer;
 }
 
@@ -319,24 +321,39 @@ html, body {
 
 }
 
-#Projects {
-    scroll-margin-top: -100px;
-}
-
-#skill {
-    scroll-margin-top: -100px;
-}
 
 
-.about-link {
-    text-decoration: none;
+.page3 h1 {
+    color: #00ed6f;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    padding-top: 15px;
+
+
 }
+.btn1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,255,136,0.4);
+}
+
+.btn1:active{
+    transform: translateY(2);
+}
+
+
+
 
 .page3 {
     /* height: 100vh; */
     width: 100%;
     /* border: 1px solid white; */
     margin: auto;
+    transition: all 0.3s ease;
+    
 
 }
 
@@ -386,6 +403,7 @@ html, body {
 .box4:hover, .box5:hover, .box6:hover {
     transform: translateY(-14px) scale(1.04);
     /* box-shadow: 0 25px 60px rgba(0,255,136,0.35); */
+    cursor: pointer;
 }
 
 
@@ -400,19 +418,6 @@ html, body {
 .box3 span {
     font-size: 14px;
 }
-
-.page3 h1 {
-    color: #00ed6f;
-    font-size: 6vw;
-    display: flex;
-    justify-content: center;
-    /* font-family: sans-serif; */
-    font-weight: 500;
-    padding-top: 15px;
-
-
-}
-
 .box img {
     width: 100%;
     height: 190px;
@@ -443,6 +448,7 @@ html, body {
     color: #e0e0e0;
 }
 
+
 .skill {
     width: 100%;
     height: 100vh;
@@ -452,6 +458,19 @@ html, body {
 
 
 }
+#Projects {
+    scroll-margin-top: -100px;
+}
+
+#skill {
+    scroll-margin-top: -100px;
+}
+
+
+.about-link {
+    text-decoration: none;
+}
+
 
 .skill h1 {
     color: #00ed6f;
