@@ -21,3 +21,16 @@ gsap.to(".myimg",{
     ease:"power1.inOut"
 
 })
+
+
+document.querySelectorAll('.circle').forEach(circle => {
+    let percent = circle.getAttribute('data-percent');
+    let angle = (percent / 100) * 360;
+
+
+    gsap.to(circle, {
+        background: `conic-gradient(#00ed6f 0deg, #00ed6f ${angle}deg, rgba(255,255,255,0.1) ${angle}deg 360deg)`,
+        duration: 2,
+        ease: "power2.out"
+    });
+});
