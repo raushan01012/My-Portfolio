@@ -449,41 +449,7 @@ html, body {
 }
 
 
-.skill {
-    width: 100%;
-    height: 100vh;
-    /* border: 2px solid white; */
-    /* margin: auto; */
 
-
-
-}
-#Projects {
-    scroll-margin-top: -100px;
-}
-
-#skill {
-    scroll-margin-top: -100px;
-}
-
-
-.about-link {
-    text-decoration: none;
-}
-
-
-.skill h1 {
-    color: #00ed6f;
-    font-size: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-
-
-
-
-}
 
 .page4 {
     display: flex;
@@ -535,13 +501,47 @@ html, body {
 .page4 {
     width: 100%;
     min-height: 80vh;
-    background: linear-gradient(120deg, #0a0a0a, #111111);
+    background: linear-gradient(180deg, #000000, #1d1d1d);
     color: white;
     padding: 50px 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+.skill {
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid white; */
+    /* margin: auto; */
 
+
+
+}
+#Projects {
+    scroll-margin-top: -100px;
+}
+
+#skill {
+    scroll-margin-top: -100px;
+}
+
+
+.about-link {
+    text-decoration: none;
+}
+
+
+.skill h1 {
+    color: #00ed6f;
+    font-size: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+
+
+
+}
 .skill-title {
     font-size: 6vw;
     color: #00ed6f;
