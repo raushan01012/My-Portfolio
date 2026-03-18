@@ -864,4 +864,16 @@ span {
 .about-tag i {
     color: #38d39f;
     font-size: 16px;
+
+}
+
+
+.cursor-glow {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(56,211,159,0.15), transparent 60%);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
