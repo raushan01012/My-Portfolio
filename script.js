@@ -12,6 +12,13 @@ if (menuToggle && navMenu) {
     menuToggle.addEventListener("click", () => {
         navMenu.classList.toggle("show");
     });
+
+    menuToggle.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            navMenu.classList.toggle("show");
+        }
+    });
 }
 
 navLinks.forEach((link) => {
@@ -29,6 +36,12 @@ document.addEventListener("click", (e) => {
     const clickedMenuButton = menuToggle.contains(e.target);
 
     if (!clickedInsideMenu && !clickedMenuButton) {
+        navMenu.classList.remove("show");
+    }
+});
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && navMenu) {
         navMenu.classList.remove("show");
     }
 });
@@ -121,7 +134,7 @@ function animateCircle(circle) {
     const small = circle.querySelector("small");
     let current = 0;
 
-    const updateProgress = () => {
+    function updateProgress() {
         current += 1;
 
         if (current > percent) return;
@@ -134,7 +147,7 @@ function animateCircle(circle) {
         }
 
         requestAnimationFrame(updateProgress);
-    };
+    }
 
     updateProgress();
 }
@@ -149,7 +162,7 @@ const skillObserver = new IntersectionObserver(
         });
     },
     {
-        threshold: 0.3
+        threshold: 0.35
     }
 );
 

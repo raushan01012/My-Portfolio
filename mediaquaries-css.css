@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 900px) {
+    .about-card-premium {
+    max-width: 100%;
+}
     .navbar {
         width: 92%;
         min-height: 72px;
@@ -284,9 +287,54 @@
         right: 16px;
         bottom: 16px;
     }
+    .about-card-premium {
+    padding: 22px 18px;
+    border-radius: 22px;
+}
+
+.about-card-top h3 {
+    font-size: 26px;
+}
+
+.about-card-text {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.about-stats-grid {
+    gap: 10px;
+}
+
+.about-stat-box {
+    padding: 16px 14px;
+}
+
+.about-stat-box h4 {
+    font-size: 24px;
+}
+
+.about-stat-box span {
+    font-size: 13px;
+}
+
+.about-card-bottom {
+    justify-content: center;
+}
+
+.about-tag {
+    width: 100%;
+    justify-content: center;
+}
 }
 
 @media (max-width: 380px) {
+    .about-stats-grid {
+    grid-template-columns: 1fr;
+}
+
+.about-card-top h3 {
+    font-size: 22px;
+}
     .navbar {
         width: 95%;
         padding: 0 12px;
