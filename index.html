@@ -1,232 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaquaries-css.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raushan Kumar | Frontend Developer</title>
+    <meta
+        name="description"
+        content="Raushan Kumar - Frontend Developer Portfolio. Responsive websites, creative UI design, and modern web projects."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquaries-css.css" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
 </head>
 <body>
-    <div class="header">
 
-   
-    <div class="navbar">
-
-        <div class="left1">
-            Port<span>folio</span>  :)
-
-        </div>
-
-
-        <div class="right1">
-
-        <a href="#">Home</a>
-        
-        <a href="#aboutme">About Me</a>
-        <a href="#Projects">Projects</a>
-        <a href="#skill">Skills</a>
-        <a>Contact me</a>
-        </div>
-        
-    </div>
-
-    
-    
-    <div class="page1">
-        <div class="left2">
-
-            <h1>Frontend Developer</h1>
-
-<h3>Building digital experiences that merge creativity with technology</h3>
-
-<h3>Specializing in modern web development</h3>
-<a href="mailto:raushankumar.portfolio@gmail.com">
-    <button class="btn">Let's Connect</button>
-</a>
-
-
-
-            <div class="icon">
-
-
-
-            <a href="https://www.instagram.com/raush_n_?igsh=Nm15amoyMmRxM2Nh&utm_source=qr" target="_blank">
-            <i class="ri-instagram-line"></i>
-            </a>
-
-            <i class="ri-twitter-fill"></i>
-            <a href="https://wa.me/919304286957" target="_blank" rel="noopener">
-            <i class="ri-whatsapp-line"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/raushan-kumar-60a96a386/" target="_blank">
-            <i class="ri-linkedin-fill"></i>
-            </a>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="left1">
+                Port<span>folio</span> :)
             </div>
 
-
-        </div>
-
-
-        <div class="right2">
-            <div class="myimg">
-                <img src="iam.jpeg" alt="">
-            </div>
-            
-        </div>
-    </div>
-
-     </div>
-
-
-
-    <div class="page2">
-        <div class="left3">
-            <div id="aboutme" class="aboutme">
-                <img src="aboutme8.png" alt="">
-            </div>
-            
-        </div>
-
-        <div class="right3">
-            <h2>Hello i'm</h2>
-          <h1>
-            Raushan
-          </h1>
-          <p>
-            And I’m a passionate Frontend Developer with a strong foundation in HTML, CSS, and currently expanding my skills in JavaScript. I love creating stunning and responsive websites that combine creativity with functionality. Alongside web development, I have experience in photo and video editing, which allows me to bring a visual edge to my projects. I enjoy learning new technologies and constantly improving my skills to deliver high-quality digital experiences.
-           </p>
-            
-                <div class="btn2">
-                    
-<a href="mailto:raushankumar.portfolio@gmail.com?subject=Hiring%20Inquiry">
-    <button class="btn1">Hire Me</button>
-</a>
-
-
-<a href="https://wa.me/919304286957"
-   target="_blank">
-    <button class="btn1">Connect</button>
-</a>
-
+            <div class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+                <i class="ri-menu-3-line"></i>
             </div>
 
+            <div class="right1" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#aboutme" class="nav-link">About Me</a>
+                <a href="#Projects" class="nav-link">Projects</a>
+                <a href="#skill" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link nav-contact">Contact</a>
+            </div>
+        </nav>
 
+        <div class="page1">
+            <div class="left2 reveal">
+                <p class="hero-badge">
+                    <i class="ri-sparkling-line"></i> Available for freelance work
+                </p>
 
+                <h1>
+                    I’m a <span id="typingText">Frontend Developer</span>
+                </h1>
+
+                <h3>Building digital experiences that merge creativity with technology</h3>
+                <h3>Specializing in modern and responsive web development</h3>
+
+                <div class="hero-buttons">
+                    <a href="mailto:raushankumar.portfolio@gmail.com">
+                        <button class="btn">Let's Connect</button>
+                    </a>
+
+                    <a href="resume.pdf" download>
+                        <button class="btn btn-outline">Download Resume</button>
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.instagram.com/raush_n_?igsh=Nm15amoyMmRxM2Nh&utm_source=qr" target="_blank">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://x.com/" target="_blank">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+
+                    <a href="https://wa.me/919304286957" target="_blank" rel="noopener">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/raushan-kumar-60a96a386/" target="_blank">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+
+                    <a href="mailto:raushankumar.portfolio@gmail.com">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="right2 reveal">
+                <div class="myimg floating-image">
+                    <img src="iam.jpeg" alt="Raushan Kumar" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page2" id="aboutme">
+        <div class="left3 reveal">
+            <div class="aboutme">
+                <img src="aboutme8.png" alt="About Raushan Kumar" />
+            </div>
         </div>
 
-    </div>
+        <div class="right3 reveal">
+            <h2>Hello I'm</h2>
+            <h1>Raushan</h1>
+            <p>
+                I’m a passionate Frontend Developer with a strong foundation in HTML and CSS,
+                and I’m currently expanding my skills in JavaScript and GSAP. I enjoy creating
+                responsive, modern, and visually appealing websites that combine creativity with
+                functionality. Alongside web development, I also have experience in photo and video
+                editing, which helps me bring a strong visual sense to every project.
+            </p>
 
+            <div class="about-highlights">
+                <div class="highlight-card">
+                    <i class="ri-code-s-slash-line"></i>
+                    <span>Responsive Websites</span>
+                </div>
 
-    <div id="Projects" class="page3">
-        <h1 class="project">Projects</h1>
+                <div class="highlight-card">
+                    <i class="ri-palette-line"></i>
+                    <span>Creative UI Design</span>
+                </div>
+
+                <div class="highlight-card">
+                    <i class="ri-movie-line"></i>
+                    <span>Photo & Video Editing</span>
+                </div>
+            </div>
+
+            <div class="btn2">
+                <a href="mailto:raushankumar.portfolio@gmail.com?subject=Hiring%20Inquiry">
+                    <button class="btn1">Hire Me</button>
+                </a>
+
+                <a href="https://wa.me/919304286957" target="_blank">
+                    <button class="btn1 btn-outline">Connect</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects" class="page3">
+        <h1 class="project reveal">Projects</h1>
 
         <div class="box">
-            <div class="box1" >
-                <a href="https://raushan01012.github.io/stickynotes/"target="_blank" rel="noopener noreferrer"</a>
-                 <img src="notesss.png" alt="">
-                 <h2><a href="https://raushan01012.github.io/stickynotes/"target="_blank" rel="noopener noreferrer" >Sticky-Notes</a></h2>
-                <p>
-I have created a Sticky Notes web application using HTML, CSS, and JavaScript.
-It allows users to create notes with different colors, pin important notes, and download their notes.
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/stickynotes/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="notesss.png" alt="Sticky Notes Project" />
+                        <span class="project-badge">Live Project</span>
+                    </div>
 
-</p>
-
-
-    
-            </div>
-            <div class="box2">
-                 <a href="https://raushan01012.github.io/qrgenerator/"target="_blank" rel="noopener noreferrer"</a>
-                <img src="qr.png" alt="">
-               <h2> <a href="https://raushan01012.github.io/qrgenerator/"target="_blank" rel="noopener noreferrer">QR-Generator</a></h2>
-              <p>
-I have created a QR Code Generator using HTML, CSS, and JavaScript.
-Users can enter any link or text, and the application instantly generates a QR code that can be scanned or downloaded for use.
-</p>
-
-            </div>
-            <div class="box3">
-                 <a href="https://raushan01012.github.io/medical-website/"target="_blank" rel="noopener noreferrer"></a>
-                <img src="medical.png" alt="">
-                <h2> <a href="https://raushan01012.github.io/medical-website/"target="_blank" rel="noopener noreferrer">Medical-Website <span>(Not-responsive)</span></a></h2>
-                <p>
-I have developed a medical website using HTML, CSS, and JavaScript.
-The website allows users to call directly and book medical appointments easily through a simple and user-friendly interface.
-</p>
-
-            </div>
-            <div class="box4">
-                <a href="https://raushan01012.github.io/Furniture-website/"target="_blank" rel="noopener noreferrer"</a>
-                <img src="furniture copy.png" alt="">
-                <h2><a href="https://raushan01012.github.io/Furniture-website/"target="_blank" rel="noopener noreferrer">Furniture-website</a></h2>
-                <p>
-I have created a furniture website using HTML, CSS, and JavaScript.
-The website showcases different furniture products with a modern design and provides an easy browsing experience for users.
-</p>
-
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <h2>Sticky Notes</h2>
+                        <p>
+                            A sticky notes web app that allows users to create notes, add colors,
+                            pin important notes, and download them easily.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
             </div>
 
-            <div class="box5">
-                <a href="https://raushan01012.github.io/rental/" target="_blank" rel="noopener noreferrer"</a>
-                <img src="rentedcam.png" alt="">
-                <h2> <a href="https://raushan01012.github.io/rental/" target="_blank" rel="noopener noreferrer">Rental-Camera</a></h2>
-               <p>
-I have created a camera rental website using HTML, CSS, and JavaScript that enables customers to browse and rent cameras and lenses with a simple and responsive booking experience.
-</p>
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/qrgenerator/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="qr.png" alt="QR Generator Project" />
+                        <span class="project-badge">Live Project</span>
+                    </div>
 
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <h2>QR Generator</h2>
+                        <p>
+                            A QR Code Generator where users can enter text or links and instantly
+                            generate downloadable QR codes.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
             </div>
-            <div class="box6">
-                <a href="https://raushan01012.github.io/My-Portfolio/"target="_blank" rel="noopener noreferrer"</a>
-                <img src="portfolio website.png" alt="">
-                <h2><a href="https://raushan01012.github.io/My-Portfolio/"target="_blank" rel="noopener noreferrer">My portfolio</a></h2>
-                <p>I created my personal portfolio website using HTML and CSS.
-It showcases my projects, skills, and achievements in a clean layout.
-This project improved my design, responsiveness, and presentation skills.</p>
+
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/medical-website/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="medical.png" alt="Medical Website Project" />
+                        <span class="project-badge">Needs Responsive Fix</span>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <h2>Medical Website <span>(Not-responsive)</span></h2>
+                        <p>
+                            A medical website designed for direct calling and appointment booking
+                            with a simple user-friendly layout.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/Furniture-website/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="furniture copy.png" alt="Furniture Website Project" />
+                        <span class="project-badge">Live Project</span>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <h2>Furniture Website</h2>
+                        <p>
+                            A modern furniture showcase website with clean design, smooth browsing,
+                            and visually appealing product presentation.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/rental/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="rentedcam.png" alt="Rental Camera Project" />
+                        <span class="project-badge">Live Project</span>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <h2>Rental Camera</h2>
+                        <p>
+                            A responsive rental website where customers can browse and rent cameras
+                            and lenses through a clean interface.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="premium-card reveal">
+                <a href="https://raushan01012.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <div class="project-image">
+                        <img src="portfolio website.png" alt="Portfolio Website Project" />
+                        <span class="project-badge">Personal Work</span>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <h2>My Portfolio</h2>
+                        <p>
+                            My personal portfolio website showcasing my projects, skills, and design
+                            sense with a clean and premium layout.
+                        </p>
+                        <span class="project-cta">View Project <i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </a>
             </div>
         </div>
-    </div>
+    </section>
 
-<div id="skill" class="page4">
-    <h1 class="skill-title">Skills</h1>
+    <section id="skill" class="page4">
+        <h1 class="skill-title reveal">Skills</h1>
 
-    <div class="skills-wrapper">
+        <div class="skills-wrapper">
+            <div class="skill-circle reveal">
+                <div class="circle" data-percent="97">
+                    <span class="skill-name">HTML</span>
+                    <small>97%</small>
+                </div>
+            </div>
 
-        <div class="skill-circle">
-            <div class="circle" data-percent="97">
-                <span class="skill-name">HTML</span>
+            <div class="skill-circle reveal">
+                <div class="circle" data-percent="95">
+                    <span class="skill-name">CSS</span>
+                    <small>95%</small>
+                </div>
+            </div>
+
+            <div class="skill-circle reveal">
+                <div class="circle" data-percent="40">
+                    <span class="skill-name">JavaScript</span>
+                    <small>40%</small>
+                </div>
+            </div>
+
+            <div class="skill-circle reveal">
+                <div class="circle" data-percent="55">
+                    <span class="skill-name">GSAP</span>
+                    <small>55%</small>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="skill-circle">
-            <div class="circle" data-percent="95">
-                <span class="skill-name">CSS</span>
-            </div>
+    <section class="contact-section" id="contact">
+        <h1 class="reveal">Contact Me</h1>
+        <p class="reveal">Let's build something creative and modern together.</p>
+
+        <div class="contact-grid">
+            <a href="mailto:raushankumar.portfolio@gmail.com" class="contact-card reveal">
+                <i class="ri-mail-send-line"></i>
+                <h3>Email</h3>
+                <span>raushankumar.portfolio@gmail.com</span>
+            </a>
+
+            <a href="https://wa.me/919304286957" target="_blank" class="contact-card reveal">
+                <i class="ri-whatsapp-line"></i>
+                <h3>WhatsApp</h3>
+                <span>+91 9304286957</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/raushan-kumar-60a96a386/" target="_blank" class="contact-card reveal">
+                <i class="ri-linkedin-box-line"></i>
+                <h3>LinkedIn</h3>
+                <span>Connect with me</span>
+            </a>
         </div>
+    </section>
 
-        <div class="skill-circle">
-            <div class="circle" data-percent="40">
-                <span class="skill-name">JavaScript</span>
-            </div>
-        </div>
+    <footer class="footer">
+        <p>© 2026 Raushan Kumar | Frontend Developer</p>
+    </footer>
 
-        <div class="skill-circle">
-            <div class="circle" data-percent="55">
-                <span class="skill-name">GSAP</span>
-            </div>
-        </div>
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
 
-    </div>
-</div>
-
-
-
-
-
-     
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
